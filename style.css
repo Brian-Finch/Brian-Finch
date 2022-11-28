@@ -1,0 +1,122 @@
+html, body {
+    min-height: 100%;
+}
+.border {
+    border-bottom: 1.5px solid gray;
+    display: flex;
+    align-items: center;
+}
+.img1 {
+    margin-left: 129px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    width: 88;
+    height: 88;
+}
+.img2 {
+    width: 291;
+    height: 59;
+    margin-left: 37px;
+
+}
+.img3 {
+    position: absolute;
+    right: 150px;
+    width: 141px;
+    height: 118px;
+    margin-top: -20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to right, #27C3A7, #4BBF49);
+    color: white;
+}
+.features{
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 20px;
+    padding-left: 30px;
+    color: #646977;
+}
+.pricing{
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 20px;
+    color: #646977;
+}
+.contact{
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 20px;
+    color: #646977;
+}
+.login{
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 20px;
+    padding-right: 30px;
+    color: #646977;
+}
+.sign-up {
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, #795FFD, #3518C9);
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+}
+.user {
+    width: 20;
+    height: 20;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.bold{
+    font-weight: 900;
+}
+.head-title{
+    margin-top: 54px;
+    font-family: 'Inter', sans-serif;
+    line-height: normal;
+    font-size: 45px;
+    background: -webkit-linear-gradient(left, #3ED6BB, #785DFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.b-desc{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    color: #646977;
+}
+.button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #3ED6BB, #785DFC);
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 55px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
