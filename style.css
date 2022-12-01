@@ -20,11 +20,10 @@
 }
 .img3 {
     position: absolute;
-    right: 150px;
     width: 141px;
     height: 118px;
-    
-    margin-top: -20px;
+    left: 1233px;
+    top: -28px; 
 }
 .list{
     display: flex;
